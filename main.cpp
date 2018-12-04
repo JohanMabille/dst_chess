@@ -59,8 +59,8 @@ void get_move(std::string input, std::array<int, 4>& pos)
     std::transform(tmp.cbegin(), tmp.cend(), pos.begin(), [](auto&& arg) { return stoi(arg); });
 }
 
-int main(int argc, char* argv)
-{
+   int main(int argc, char** argv)
+{ /*
     std::string input;
     std::cout << "Enter your move: ro,co - rd,cd" << std::endl;
     std::getline(std::cin, input);
@@ -73,6 +73,7 @@ int main(int argc, char* argv)
     {
         std::cout << e.what() << std::endl;
     }
+*/
     return 0;
-}
+}  
 
